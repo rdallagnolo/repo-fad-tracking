@@ -42,7 +42,7 @@ areas.
 - All polygon vertices must be in order; the script will auto-close the ring.
 
 ## Typical Folder Layout
-'''
+```
 repo-fad/
 ├─ build_fad_tracks.py
 ├─ deployment-area.csv
@@ -58,4 +58,4 @@ repo-fad/
   ├─ all_points.csv
   ├─ inactive_buoys.csv
 └─ (optional shapefiles and zipped sets)
-'''
+```
