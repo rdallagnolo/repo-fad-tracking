@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 FAD Tracks Builder (annotated)
-
 What this script does (quick overview):
 - Reads one or more buoy CSV files (pattern default: buoys*.csv).
 - Appends new records to a cumulative archive all_points.csv (dedup by buoy_id+timestamp).
@@ -88,6 +87,7 @@ def dms_to_dd(dms: str) -> float:
 # I/O helpers for polygons and buoy CSVs
 # ------------------------------------------------------------------------------
 
+
 def load_area_csv(path: str) -> pd.DataFrame:
     """
     Load one polygon CSV (deployment or operational).
@@ -108,25 +108,59 @@ def load_area_csv(path: str) -> pd.DataFrame:
 
 def load_buoy_file(path: str) -> pd.DataFrame:
     """
-    Load one buoy CSV with header:
-      NAME;DATE;LATITUDE;LONGITUDE;SPEED;COURSE;
-    The trailing semicolon is tolerated by reading an extra column (dropped).
-    Adds a __source_file column for traceability.
+    Load one buoy CSV with flexible delimiter and headers.
+
+    Accepts either the MGO-style (semicolon):
+      NAME;DATE;LATITUDE;LONGITUDE;SPEED;COURSE;   (may have a trailing column)
+    or the comma style:
+      Name,LastTX TimeStamp,Latitude,Longitude,COG,SOG  (order may vary)
+
+    Returns columns: buoy_id, timestamp, lat, lon, speed_kn, course_deg, __source_file
     """
-    df = pd.read_csv(
-        path,
-        sep=';',
-        engine='python',
-        names=['NAME', 'DATE', 'LATITUDE', 'LONGITUDE', 'SPEED', 'COURSE', 'EXTRA'],
-        header=0,
-    ).drop(columns=['EXTRA'])
-    df['__source_file'] = os.path.basename(path)
-    return df
+    # Let pandas sniff the delimiter and handle both ; and , and mixed whitespace
+    df = pd.read_csv(path, sep=None, engine='python')
+    df.columns = [c.strip() for c in df.columns]
+
+    # Canonicalize for flexible matching (case-insensitive, whitespace-insensitive)
+    canon = {re.sub(r'\s+', '', c.lower()): c for c in df.columns}
+
+    def pick(*options, default=None):
+        for o in options:
+            key = re.sub(r'\s+', '', o.lower())
+            if key in canon:
+                return canon[key]
+        return default
+
+    name_col = pick('NAME', 'Name')
+    date_col = pick('DATE', 'LastTX TimeStamp', 'Timestamp', 'Time', 'Date')
+    lat_col = pick('LATITUDE', 'Latitude', 'Lat')
+    lon_col = pick('LONGITUDE', 'Longitude', 'Lon', 'Long')
+    spd_col = pick('SPEED', 'SOG', 'Speed')
+    crs_col = pick('COURSE', 'COG', 'Course')
+
+    need = [name_col, date_col, lat_col, lon_col]
+    if any(v is None for v in need):
+        raise ValueError(
+            f"Unrecognized buoy CSV headers in {os.path.basename(path)}: {df.columns.tolist()}"
+        )
+
+    out = pd.DataFrame({
+        'buoy_id': df[name_col],
+        'timestamp': df[date_col],
+        'lat': df[lat_col],
+        'lon': df[lon_col],
+    })
+    out['speed_kn'] = df[spd_col] if (spd_col in df.columns) else pd.NA
+    out['course_deg'] = df[crs_col] if (crs_col in df.columns) else pd.NA
+
+    out['__source_file'] = os.path.basename(path)
+    return out
 
 
 # ------------------------------------------------------------------------------
 # KML writers
 # ------------------------------------------------------------------------------
+
 
 def write_kml_latest(latest: pd.DataFrame, out_path: str):
     """
@@ -192,6 +226,7 @@ def write_kml_tracks(df: pd.DataFrame, out_path: str):
 # Shapefile helper (zipper)
 # ------------------------------------------------------------------------------
 
+
 def zip_shapefile(basepath: str, zipname: str, out_dir: str) -> str:
     """
     Create a .zip containing the .shp/.shx/.dbf/.prj/.cpg that form a shapefile.
@@ -210,6 +245,7 @@ def zip_shapefile(basepath: str, zipname: str, out_dir: str) -> str:
 # ------------------------------------------------------------------------------
 # Main pipeline
 # ------------------------------------------------------------------------------
+
 
 def main():
     # ---- Command-line arguments (tweak defaults here if you like)
@@ -259,16 +295,17 @@ def main():
     # ---- Load fresh buoy fixes for this run and normalize columns
     dfs = [load_buoy_file(f) for f in files]
     df = pd.concat(dfs, ignore_index=True).rename(columns={
-        'NAME': 'buoy_id',
-        'DATE': 'timestamp',
-        'LATITUDE': 'lat',
-        'LONGITUDE': 'lon',
-        'SPEED': 'speed_kn',
-        'COURSE': 'course_deg',
+        'buoy_id': 'buoy_id',
+        'timestamp': 'timestamp',
+        'lat': 'lat',
+        'lon': 'lon',
+        'speed_kn': 'speed_kn',
+        'course_deg': 'course_deg',
     })
 
     # Type conversions: timestamps + numeric values
-    df['timestamp'] = pd.to_datetime(df['timestamp'], format='%d/%m/%Y %H:%M:%S', errors='coerce')
+    # Robust parse: handles '31-10-2025 22:36' and '31/10/2025 22:36:59'
+    df['timestamp'] = pd.to_datetime(df['timestamp'], dayfirst=True, errors='coerce', infer_datetime_format=True)
     for col in ['lat', 'lon', 'speed_kn', 'course_deg']:
         df[col] = pd.to_numeric(df[col], errors='coerce')
 

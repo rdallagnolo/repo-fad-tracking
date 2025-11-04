@@ -7,7 +7,7 @@
 <Placemark>
   <name>MGO133352</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-01 17:23:25
+  <description>timestamp: 2025-11-01 17:23:00
 speed_kn: 0.5
 course_deg: 336.1
 </description>
@@ -16,416 +16,650 @@ course_deg: 336.1
 <Placemark>
   <name>MGO133361</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 12:13:28
-speed_kn: 0.1
-course_deg: 233.3
+  <description>timestamp: 2025-11-04 16:13:00
+speed_kn: 0.5
+course_deg: 168.8
 </description>
-  <Point><coordinates>9.965333,-5.224667,0</coordinates></Point>
+  <Point><coordinates>9.990333,-5.493,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO133384</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:54:22
-speed_kn: 0.5
-course_deg: 182.0
+  <description>timestamp: 2025-11-02 15:54:00
+speed_kn: 0.4
+course_deg: 184.5
 </description>
-  <Point><coordinates>10.329667,-6.636167,0</coordinates></Point>
+  <Point><coordinates>10.327333,-6.665667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO133427</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 05:51:31
-speed_kn: 0.2
-course_deg: 57.1
+  <description>timestamp: 2025-11-04 13:51:00
+speed_kn: 0.4
+course_deg: 143.4
 </description>
-  <Point><coordinates>9.761667,-5.387167,0</coordinates></Point>
+  <Point><coordinates>9.875833,-5.665167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO133435</name>
-  <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:11:45
-speed_kn: 0.2
-course_deg: 254.1
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:12:00
+speed_kn: 0.3
+course_deg: 333.9
 </description>
-  <Point><coordinates>10.371333,-4.607833,0</coordinates></Point>
+  <Point><coordinates>10.084333,-4.567,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174216</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 12:58:26
-speed_kn: 0.1
-course_deg: 59.7
+  <description>timestamp: 2025-11-04 17:00:00
+speed_kn: 0.3
+course_deg: 112.2
 </description>
-  <Point><coordinates>9.505167,-5.3605,0</coordinates></Point>
+  <Point><coordinates>9.658667,-5.4385,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174809</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:12:55
-speed_kn: 0.1
-course_deg: 198.0
+  <description>timestamp: 2025-11-04 17:13:00
+speed_kn: 0.4
+course_deg: 153.5
 </description>
-  <Point><coordinates>7.25,-3.3945,0</coordinates></Point>
+  <Point><coordinates>7.283833,-3.593833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174812</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:13:21
-speed_kn: 0.1
-course_deg: 338.1
+  <description>timestamp: 2025-11-04 17:17:00
+speed_kn: 0.3
+course_deg: 317.0
 </description>
-  <Point><coordinates>11.033333,-5.095,0</coordinates></Point>
+  <Point><coordinates>10.866667,-4.915333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174815</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:27:22
-speed_kn: 0.1
-course_deg: 207.9
+  <description>timestamp: 2025-11-04 14:28:00
+speed_kn: 0.3
+course_deg: 99.4
 </description>
-  <Point><coordinates>8.186167,-4.638167,0</coordinates></Point>
+  <Point><coordinates>8.292833,-4.739833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174816</name>
-  <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:26:52
-speed_kn: 1.4
-course_deg: 327.9
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:26:00
+speed_kn: 1.1
+course_deg: 321.7
 </description>
-  <Point><coordinates>10.246833,-3.754333,0</coordinates></Point>
+  <Point><coordinates>9.66,-2.783333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174817</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:43:29
+  <description>timestamp: 2025-11-04 14:41:00
 speed_kn: 0.0
-course_deg: 90.0
+course_deg: 224.8
 </description>
   <Point><coordinates>10.093,-3.2095,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO174828</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:06:28
+  <description>timestamp: 2025-11-04 14:06:00
 speed_kn: 0.2
-course_deg: 335.7
+course_deg: 6.1
 </description>
-  <Point><coordinates>9.789333,-4.718333,0</coordinates></Point>
+  <Point><coordinates>9.649333,-4.712833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176255</name>
-  <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:09:06
-speed_kn: 0.1
-course_deg: 274.3
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 15:07:00
+speed_kn: 0.2
+course_deg: 232.4
 </description>
-  <Point><coordinates>8.4755,-2.485667,0</coordinates></Point>
+  <Point><coordinates>8.313333,-2.679167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176263</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:16:19
-speed_kn: 0.0
-course_deg: 245.5
+  <description>timestamp: 2025-11-04 15:16:00
+speed_kn: 0.3
+course_deg: 145.6
 </description>
-  <Point><coordinates>9.855333,-5.153333,0</coordinates></Point>
+  <Point><coordinates>9.928833,-5.324333,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO176336</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 15:16:00
+speed_kn: 0.3
+course_deg: 94.2
+</description>
+  <Point><coordinates>7.915333,-4.288667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176349</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-10-28 11:09:10
-speed_kn: 0.2
-course_deg: 331.0
+  <description>timestamp: 2025-11-04 07:11:00
+speed_kn: 0.0
+course_deg: 331.4
 </description>
-  <Point><coordinates>9.53,-2.531833,0</coordinates></Point>
+  <Point><coordinates>9.527,-2.526333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176384</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:18:06
-speed_kn: 0.3
-course_deg: 240.7
+  <description>timestamp: 2025-11-04 15:17:00
+speed_kn: 0.4
+course_deg: 161.5
 </description>
-  <Point><coordinates>7.742833,-3.4085,0</coordinates></Point>
+  <Point><coordinates>7.666667,-3.669167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176391</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:19:47
+  <description>timestamp: 2025-11-04 15:17:00
 speed_kn: 0.2
-course_deg: 131.9
+course_deg: 107.8
 </description>
-  <Point><coordinates>7.968333,-4.16,0</coordinates></Point>
+  <Point><coordinates>8.057833,-4.257333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176462</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:04:23
+  <description>timestamp: 2025-11-04 15:05:00
 speed_kn: 0.1
-course_deg: 122.3
+course_deg: 178.8
 </description>
-  <Point><coordinates>8.799,-3.823333,0</coordinates></Point>
+  <Point><coordinates>8.7215,-3.875167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176467</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:10:50
+  <description>timestamp: 2025-11-04 15:10:00
 speed_kn: 0.1
-course_deg: 168.0
+course_deg: 50.1
 </description>
-  <Point><coordinates>10.298167,-5.178667,0</coordinates></Point>
+  <Point><coordinates>10.305,-5.3445,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176470</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:39:51
-speed_kn: 0.1
-course_deg: 303.8
+  <description>timestamp: 2025-11-04 17:40:00
+speed_kn: 0.2
+course_deg: 113.5
 </description>
-  <Point><coordinates>8.647,-4.735167,0</coordinates></Point>
+  <Point><coordinates>8.658667,-4.893667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176526</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:17:54
-speed_kn: 0.1
-course_deg: 314.2
+  <description>timestamp: 2025-11-04 15:17:00
+speed_kn: 0.2
+course_deg: 140.6
 </description>
-  <Point><coordinates>8.876333,-5.001667,0</coordinates></Point>
+  <Point><coordinates>8.926833,-5.146167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176595</name>
   <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:45:20
+  <description>timestamp: 2025-11-04 14:44:00
 speed_kn: 0.2
-course_deg: 251.9
+course_deg: 54.4
 </description>
-  <Point><coordinates>10.247,-4.557167,0</coordinates></Point>
+  <Point><coordinates>10.177833,-4.581833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176608</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:56:53
-speed_kn: 0.2
-course_deg: 207.8
+  <description>timestamp: 2025-11-04 13:56:00
+speed_kn: 0.3
+course_deg: 280.4
 </description>
-  <Point><coordinates>10.817167,-5.8165,0</coordinates></Point>
+  <Point><coordinates>10.737667,-5.973167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO176724</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:13:35
+  <description>timestamp: 2025-11-02 23:13:00
 speed_kn: 0.2
-course_deg: 236.3
+course_deg: 212.6
 </description>
-  <Point><coordinates>7.179667,-3.4935,0</coordinates></Point>
+  <Point><coordinates>7.154,-3.5295,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO177429</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:22:37
-speed_kn: 0.7
-course_deg: 348.7
+  <description>timestamp: 2025-11-04 15:22:00
+speed_kn: 0.4
+course_deg: 330.3
 </description>
-  <Point><coordinates>8.330167,-2.982167,0</coordinates></Point>
+  <Point><coordinates>8.082,-2.696167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO178918</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 03:06:09
+  <description>timestamp: 2025-11-04 15:06:00
 speed_kn: 0.0
-course_deg: 0.0
+course_deg: 270.0
 </description>
-  <Point><coordinates>9.411,-2.341667,0</coordinates></Point>
+  <Point><coordinates>9.411,-2.3415,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO178982</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:00:54
-speed_kn: 0.8
-course_deg: 302.9
+  <description>timestamp: 2025-11-04 14:00:00
+speed_kn: 0.3
+course_deg: 272.2
 </description>
-  <Point><coordinates>9.944833,-2.964667,0</coordinates></Point>
+  <Point><coordinates>9.415333,-2.637,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO179041</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:04:09
-speed_kn: 0.0
-course_deg: 329.6
+  <description>timestamp: 2025-11-04 17:03:00
+speed_kn: 0.1
+course_deg: 36.5
 </description>
-  <Point><coordinates>9.422667,-2.522333,0</coordinates></Point>
+  <Point><coordinates>9.246833,-2.507167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO179119</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:46:43
+  <description>timestamp: 2025-11-04 15:46:00
 speed_kn: 0.0
-course_deg: 243.4
+course_deg: 225.1
 </description>
-  <Point><coordinates>9.290333,-2.424333,0</coordinates></Point>
+  <Point><coordinates>9.290667,-2.425167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO183921</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:02:41
-speed_kn: 0.2
-course_deg: 205.8
+  <description>timestamp: 2025-11-03 01:02:00
+speed_kn: 0.3
+course_deg: 210.4
 </description>
-  <Point><coordinates>10.8265,-6.153833,0</coordinates></Point>
+  <Point><coordinates>10.776333,-6.2225,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO183926</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:36:00
+speed_kn: 0.7
+course_deg: 154.0
+</description>
+  <Point><coordinates>8.409833,-1.519667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184082</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:28:30
-speed_kn: 0.0
-course_deg: 167.0
+  <description>timestamp: 2025-11-04 15:27:00
+speed_kn: 0.2
+course_deg: 124.1
 </description>
-  <Point><coordinates>8.445333,-4.7175,0</coordinates></Point>
+  <Point><coordinates>8.504167,-4.870333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184110</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:20:06
-speed_kn: 0.1
-course_deg: 228.3
+  <description>timestamp: 2025-11-04 15:19:00
+speed_kn: 0.3
+course_deg: 350.4
 </description>
-  <Point><coordinates>9.6055,-4.239833,0</coordinates></Point>
+  <Point><coordinates>9.548,-4.315833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184177</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:25:00
-speed_kn: 1.0
-course_deg: 329.0
+  <description>timestamp: 2025-11-04 15:25:00
+speed_kn: 0.8
+course_deg: 329.3
 </description>
-  <Point><coordinates>10.825333,-3.81,0</coordinates></Point>
+  <Point><coordinates>10.3785,-3.380667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184179</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:04:52
-speed_kn: 0.4
-course_deg: 311.4
+  <description>timestamp: 2025-11-04 17:04:00
+speed_kn: 0.0
+course_deg: 45.0
 </description>
-  <Point><coordinates>10.084,-3.274167,0</coordinates></Point>
+  <Point><coordinates>9.976167,-3.163167,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184186</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:58:09
+  <description>timestamp: 2025-11-04 14:58:00
 speed_kn: 0.1
-course_deg: 233.0
+course_deg: 230.8
 </description>
-  <Point><coordinates>10.800333,-5.738333,0</coordinates></Point>
+  <Point><coordinates>10.672333,-5.7545,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184199</name>
   <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:45:11
-speed_kn: 0.3
-course_deg: 340.7
+  <description>timestamp: 2025-11-04 14:45:00
+speed_kn: 0.2
+course_deg: 344.2
 </description>
-  <Point><coordinates>10.688667,-4.446667,0</coordinates></Point>
+  <Point><coordinates>10.4165,-4.199667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184222</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:10:51
+  <description>timestamp: 2025-11-04 17:11:00
 speed_kn: 0.0
-course_deg: 0.0
+course_deg: 108.5
 </description>
-  <Point><coordinates>10.869167,-3.9185,0</coordinates></Point>
+  <Point><coordinates>10.8695,-3.918833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184291</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:05:38
-speed_kn: 0.6
-course_deg: 332.3
+  <description>timestamp: 2025-11-04 17:05:00
+speed_kn: 0.2
+course_deg: 351.4
 </description>
-  <Point><coordinates>8.029667,-2.046833,0</coordinates></Point>
+  <Point><coordinates>7.691833,-2.063833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184301</name>
-  <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:21:35
-speed_kn: 0.1
-course_deg: 43.1
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 15:21:00
+speed_kn: 0.2
+course_deg: 286.8
 </description>
-  <Point><coordinates>9.619167,-3.915667,0</coordinates></Point>
+  <Point><coordinates>9.493,-3.953,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184369</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:07:11
-speed_kn: 0.2
-course_deg: 189.4
+  <description>timestamp: 2025-11-04 17:07:00
+speed_kn: 0.1
+course_deg: 280.6
 </description>
-  <Point><coordinates>10.561,-5.836833,0</coordinates></Point>
+  <Point><coordinates>10.476167,-6.006833,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO184371</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:46:02
+  <description>timestamp: 2025-11-04 17:46:00
 speed_kn: 0.1
-course_deg: 259.0
+course_deg: 44.9
 </description>
-  <Point><coordinates>9.7575,-4.49,0</coordinates></Point>
+  <Point><coordinates>9.702,-4.532667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO190082</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:36:18
-speed_kn: 0.5
-course_deg: 317.5
+  <description>timestamp: 2025-11-04 14:36:00
+speed_kn: 0.4
+course_deg: 291.6
 </description>
-  <Point><coordinates>9.177167,-2.369333,0</coordinates></Point>
+  <Point><coordinates>8.8605,-2.2725,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO191576</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:18:00
+speed_kn: 0.9
+course_deg: 165.0
+</description>
+  <Point><coordinates>8.548833,-1.712333,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO196407</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:50:00
+speed_kn: 1.0
+course_deg: 155.2
+</description>
+  <Point><coordinates>8.160167,-1.902333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO196968</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 09:07:42
-speed_kn: 0.6
-course_deg: 192.2
+  <description>timestamp: 2025-11-03 09:07:00
+speed_kn: 0.7
+course_deg: 168.3
 </description>
-  <Point><coordinates>10.233,-6.542,0</coordinates></Point>
+  <Point><coordinates>10.204167,-6.793,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO198526</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 16:24:00
+speed_kn: 0.8
+course_deg: 165.7
+</description>
+  <Point><coordinates>8.178833,-2.028167,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO198527</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 17:58:00
+speed_kn: 0.7
+course_deg: 149.5
+</description>
+  <Point><coordinates>8.409833,-1.607167,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO198689</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:06:00
+speed_kn: 0.5
+course_deg: 153.3
+</description>
+  <Point><coordinates>8.6375,-1.562667,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO198870</name>
-  <styleUrl>#redPin</styleUrl>
-  <description>timestamp: 2025-11-02 11:04:55
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 15:06:00
 speed_kn: 0.5
-course_deg: 294.6
+course_deg: 277.4
 </description>
-  <Point><coordinates>9.5635,-3.877833,0</coordinates></Point>
+  <Point><coordinates>9.170667,-3.894,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO198882</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 10:43:54
+  <description>timestamp: 2025-11-04 06:43:00
 speed_kn: 0.2
-course_deg: 332.2
+course_deg: 198.4
 </description>
-  <Point><coordinates>9.492,-2.704333,0</coordinates></Point>
+  <Point><coordinates>9.409167,-2.6775,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>MGO199103</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 15:55:00
+speed_kn: 0.2
+course_deg: 137.4
+</description>
+  <Point><coordinates>8.8325,-1.756,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO199106</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 12:01:59
+  <description>timestamp: 2025-11-04 16:01:00
 speed_kn: 0.0
-course_deg: 270.0
+course_deg: 243.4
 </description>
-  <Point><coordinates>10.244333,-3.268167,0</coordinates></Point>
+  <Point><coordinates>10.244333,-3.268333,0</coordinates></Point>
 </Placemark>
 <Placemark>
   <name>MGO199125</name>
   <styleUrl>#defPin</styleUrl>
-  <description>timestamp: 2025-11-02 12:57:36
+  <description>timestamp: 2025-11-04 16:57:00
 speed_kn: 0.3
-course_deg: 328.1
+course_deg: 337.4
 </description>
-  <Point><coordinates>10.958667,-5.376667,0</coordinates></Point>
+  <Point><coordinates>10.805167,-5.229,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+481061</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 16:25:00
+speed_kn: 0.14
+course_deg: 153.0
+</description>
+  <Point><coordinates>7.54197,-5.9586,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+481434</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:00:00
+speed_kn: 0.33
+course_deg: 122.0
+</description>
+  <Point><coordinates>8.9848,-5.68493,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+514636</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 09:49:00
+speed_kn: 0.25
+course_deg: 159.0
+</description>
+  <Point><coordinates>8.33238,-5.45807,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+526979</name>
+  <styleUrl>#redPin</styleUrl>
+  <description>timestamp: 2025-11-04 13:24:00
+speed_kn: 0.38
+course_deg: 185.0
+</description>
+  <Point><coordinates>8.53857,-2.82602,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+527020</name>
+  <styleUrl>#redPin</styleUrl>
+  <description>timestamp: 2025-11-04 06:50:00
+speed_kn: 0.0
+course_deg: 0.0
+</description>
+  <Point><coordinates>8.19758,-2.14738,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+527021</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 14:45:00
+speed_kn: 0.32
+course_deg: 217.0
+</description>
+  <Point><coordinates>8.18183,-2.9241,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+527027</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 05:33:00
+speed_kn: 0.74
+course_deg: 186.0
+</description>
+  <Point><coordinates>7.2501,-2.11508,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+527028</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 08:23:00
+speed_kn: 0.41
+course_deg: 150.0
+</description>
+  <Point><coordinates>10.1609,-5.32547,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+527056</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 00:28:00
+speed_kn: 0.38
+course_deg: 139.0
+</description>
+  <Point><coordinates>7.03332,-4.6978,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+543436</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 05:11:00
+speed_kn: 0.09
+course_deg: 149.0
+</description>
+  <Point><coordinates>7.94785,-3.60873,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544211</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 07:35:00
+speed_kn: 0.17
+course_deg: 211.0
+</description>
+  <Point><coordinates>8.398,-3.82738,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544448</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 11:46:00
+speed_kn: 0.23
+course_deg: 148.0
+</description>
+  <Point><coordinates>7.67102,-3.2754,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544568</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 12:27:00
+speed_kn: 0.76
+course_deg: 180.0
+</description>
+  <Point><coordinates>7.65118,-1.93658,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544741</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 13:54:00
+speed_kn: 0.62
+course_deg: 176.0
+</description>
+  <Point><coordinates>7.87165,-2.31105,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544742</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 08:49:00
+speed_kn: 0.14
+course_deg: 227.0
+</description>
+  <Point><coordinates>9.13107,-4.20605,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544747</name>
+  <styleUrl>#redPin</styleUrl>
+  <description>timestamp: 2025-11-04 15:05:00
+speed_kn: 0.71
+course_deg: 178.0
+</description>
+  <Point><coordinates>8.11737,-2.14352,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544850</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 05:35:00
+speed_kn: 0.18
+course_deg: 233.0
+</description>
+  <Point><coordinates>8.6238,-3.8802,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>SLX+544934</name>
+  <styleUrl>#defPin</styleUrl>
+  <description>timestamp: 2025-11-04 09:58:00
+speed_kn: 0.3
+course_deg: 133.0
+</description>
+  <Point><coordinates>7.30727,-4.46987,0</coordinates></Point>
 </Placemark>
 </Document>
 </kml>
